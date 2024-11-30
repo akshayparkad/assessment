@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container">
+        <div class="title">
+          <div class="title-text">YAY! It's BOGO</div>
+        </div>
+
+        <div class="price-box" onclick="viewDetails(1)">
+          <div class="price-box-content">
+            <input type="radio" id="radio1" name="price-options"/>
+
+            <div class="units">
+              <h2>1 Unit<span>10% Off</span></h2>
+              <div>Standard Price</div>
+            </div>
+
+            <div class="price">
+              <h2>$10.00 USD</h2>
+              <div class="mrp"><s>$24.00 USD</s></div>
+            </div>
+          </div>
+
+          <div class="extra-options hidden" id="extra-options-content1">
+            <div class="extra-row">
+              <div></div>
+              <div>Size</div>
+              <div>Colour</div>
+            </div>
+            <div class="extra-row">
+              <div>#1</div>
+              <div>
+                <select>
+                  <option>S</option>
+                  <option>L</option>
+                  <option>M</option>
+                </select>
+              </div>
+              <div>
+                <select>
+                  <option>Pink</option>
+                  <option>Black</option>
+                  <option>Red</option>
+                </select>
+              </div>
+            </div>
+            <div class="extra-row">
+              <div>#2</div>
+              <div>
+                <select>
+                  <option>S</option>
+                  <option>L</option>
+                  <option>M</option>
+                </select>
+              </div>
+              <div>
+                <select>
+                  <option>Red</option>
+                  <option>Blue</option>
+                  <option>Red</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="price-box" onclick="viewDetails(2)">
+            <div class="price-box-content" >
+              <input type="radio" id="radio2" name="price-options"/>
+  
+              <div class="units">
+                <h2>2 Unit<span>20% Off</span></h2>
+              </div>
+  
+              <div class="price">
+                <h2>$18.00 USD</h2>
+                <div class="mrp"><s>$24.00 USD</s></div>
+              </div>
+            </div>
+  
+            <div class="extra-options hidden" id="extra-options-content2">
+              <div class="extra-row">
+                <div></div>
+                <div>Size</div>
+                <div>Colour</div>
+              </div>
+              <div class="extra-row">
+                <div>#1</div>
+                <div>
+                  <select>
+                    <option>S</option>
+                    <option>L</option>
+                    <option>M</option>
+                  </select>
+                </div>
+                <div>
+                  <select>
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>White</option>
+                  </select>
+                </div>
+              </div>
+              <div class="extra-row">
+                <div>#2</div>
+                <div>
+                  <select>
+                    <option>S</option>
+                    <option>L</option>
+                    <option>M</option>
+                  </select>
+                </div>
+                <div>
+                  <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>White</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="price-box" onclick="viewDetails(3)">
+            <div class="price-box-content">
+              <input type="radio" id="radio3" name="price-options"/>
+  
+              <div class="units">
+                <h2>3 Unit<span>30% Off</span></h2>
+              </div>
+  
+              <div class="price">
+                <h2>$24.00 USD</h2>
+                <div class="mrp"><s>$24.00 USD</s></div>
+              </div>
+            </div>
+  
+            <div class="extra-options hidden" id="extra-options-content3">
+              <div class="extra-row">
+                <div></div>
+                <div>Size</div>
+                <div>Colour</div>
+              </div>
+              <div class="extra-row">
+                <div>#1</div>
+                <div>
+                  <select>
+                    <option>S</option>
+                    <option>L</option>
+                    <option>M</option>
+                  </select>
+                </div>
+                <div>
+                  <select>
+                    <option>Red</option>
+                    <option>Green</option>
+                    <option>Blue</option>
+                  </select>
+                </div>
+              </div>
+              <div class="extra-row">
+                <div>#2</div>
+                <div>
+                  <select>
+                    <option>S</option>
+                    <option>L</option>
+                    <option>M</option>
+                  </select>
+                </div>
+                <div>
+                  <select>
+                    <option>Blue</option>
+                    <option>Red</option>
+                    <option>Yellow</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="delivery">
+            <span>Free Delivery</span>
+            <div>Total : $18.00 USD</div>
+        </div>
+         
+        <button>+ Add to Cart</button>
+
+        <div class="pumper"><i>@ Powered by Pumper</i></div>
+       </div>
+    </div>
+  </body>
+</html>
